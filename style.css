@@ -48,7 +48,8 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 3rem;
+  margin-top: 2rem;
 }
 .main label {
   font-size: 1.5rem;
