@@ -3,6 +3,10 @@ const umar = document.querySelector(".umar");
 const button = document.querySelector(".submit");
 
 button.addEventListener("click", () => {
+  if (!dob.value) {
+    alert("Enter your date of birth first.");
+  }
+
   const dobValue = dob.value;
   const year = new Date(dobValue).getFullYear();
   const currentYear = new Date().getFullYear();
